@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b0e3369a79.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+         <nav>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contacts</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+            <p>Web Designer</p>
+            <h1>Hi , I'm Deepak Singh</h1>
+
+         </div>
+        </div>
+
+    </div>
+    <!-------------------------about------------------------------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me :</h1>
+                    <p>I am a recent graduate with a B.Tech degree in Information Technology. Passionate about leveraging my technical skills to solve real-world problems, I have a strong foundation in web development, data structures, algorithms, and web technologies. I am eager to apply my knowledge in a challenging and innovative environment, contributing effectively to the team while continuously learning and growing in the field.</p>
+                     <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('Education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li>C++</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                        </ul>
+        
+                     </div>
+                     <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>July 2023 - August 2023</span><br>Intern at TechnoFunnel pvt.ltd <br>(MERN Stack)</li>
+                            
+                        </ul>
+        
+                     </div> <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>B.tech from IMS Engineering College</li>
+                            <li><span>2017 - 2019</span><br>Intermediate from NIOS</li>
+                            <li><span>2015 - 2017</span><br>High School from Nav Jeevan Mission School</li>
+                           
+                        </ul>
+        
+                     </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!---------------------------Services------------------------------------------------->
+
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services :</h1>
+            <div class="services-list">
+               <div>
+                <h2>Web Design</h2>
+                <p>Creating visually appealing and user-friendly websites tailored to meet client needs.Ensuring websites are optimized for all devices, providing a seamless experience across desktops, tablets, phones.Designing and implementing online stores with secure payment gateways and efficient navigation</p>
+                <a href="#">Learn more</a>
+               </div>
+
+               <div>
+                <h2>UI/UX Design</h2>
+                <p>Creating intuitive interfaces and enhancing user experiences through user research, wireframing, and prototyping. Focusing on visual design, interaction design, and usability testing to ensure accessibility and continuous improvement. My designs prioritize user needs and usability principles, resulting in functional and visually appealing digital products.</p>
+                <a href="#">Learn more</a>
+               </div>
+
+               <div>
+                <h2>App Design</h2>
+                <p>Designing intuitive and engaging app interfaces through user research, wireframing, and prototyping. Emphasizing visual aesthetics, smooth interactions, and usability testing to ensure accessibility and continuous refinement. My approach prioritizes user needs and usability principles, delivering functional and visually appealing mobile app experiences.</p>
+                <a href="#">Learn more</a>
+               </div>
+
+            </div>
+        </div>
+     </div>
+
+
+     <!--------------------------------work-------------------------------------------------->
+         
+
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work :</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work img 1.webp">
+                    <div class="layer">
+                        <h3>E-Voting System Using Blockchain</h3>
+                        <p>A blockchain-based e-voting system ensures secure, transparent, and tamper-proof elections by recording immutable votes on a decentralized ledger, enhancing trust and preventing fraud through encryption and real-time auditing.</p>
+
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/work img 2.jpeg">
+                    <div class="layer">
+                        <h3>Spotify Clone</h3>
+                        <p>Developed a Spotify clone using HTML, CSS, and JavaScript. Implemented responsive design, user authentication, music playback, and dynamic playlists. Ensured a seamless user experience with intuitive UI and smooth interactions.</p>
+                        
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/work img 3.png">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>Developed an e-commerce website using HTML, CSS, and JavaScript. Implemented responsive design, product listings, shopping cart, user authentication, and secure payment integration, ensuring a seamless and user-friendly shopping experience.</p>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+     </div>
+
+
+     <!----------------------------Contacts----------------------------------------------------->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me :</h1>
+                    <p><i class="fa-solid fa-envelope"></i>deepaksinghds7985@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-7985642670</p>
+                    <div class="social-icons">
+                       
+                        <a href="https://www.instagram.com/deepaksingh__18?igsh=MWhiZ2t4dGhnaW13eQ=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/deepak-singh02"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/deepaksingh1801"><i class="fa-brands fa-square-github"></i></a>
+                        
+                        
+
+                    </div>
+                    <a href="image/deepak.resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+     </div>
+
+
+
+
+
+
+
+    <Script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+        
+        
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+        
+        
+        </Script>
+
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwlXgoJCKFaOI2jJLcDQ1YhhG9keimYYP8PFZJe0wrw0A8sIZGui7FkcZepK-VAtTwlRw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            serTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
